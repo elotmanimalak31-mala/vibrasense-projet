@@ -40,8 +40,8 @@ export const Navbar = () => {
     <header className="sticky top-0 z-40 border-b border-border/60 bg-background/70 backdrop-blur-xl">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 md:px-8">
         <NavLink to="/" className="flex items-center gap-2.5">
-          <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary/15 border border-primary/30">
-            <Activity className="h-5 w-5 text-primary" />
+          <div className="flex h-9 w-9 items-center justify-center rounded-lg overflow-hidden">
+            <img src="/preview.png" alt="VibrasenseIoT Logo" className="h-9 w-9 object-contain" />
           </div>
           <span className="font-bold tracking-tight">VibraSense</span>
         </NavLink>
